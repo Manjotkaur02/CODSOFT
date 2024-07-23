@@ -1,0 +1,306 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.gradient-box {
+  background-image: linear-gradient(to right, #decd14, #dc6719, #ec179b);
+  margin: 0px;
+}
+
+/* for bar setting */
+.move {
+  margin-left: 200px;
+}
+
+.move a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  padding: 20px;
+  text-align: center;
+  float: left;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+
+/* for bar setting */
+#setting {
+  background-color: white;
+  position: fixed;
+  top: 65px;
+  width: 100%;
+}
+
+/* for bar setting */
+.num pre {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 15px;
+  float: right;
+}
+
+/* for bar setting */
+.num i {
+  font-size: 15px;
+  text-align: center;
+}
+
+
+.num button {
+  font-size: 15px;
+  padding: 1px;
+  text-align: center;
+  margin: 0px;
+}
+
+/*console button  */
+#cons {
+  margin: 2px;
+  padding: 10px;
+  display: inline;
+  border-color: white;
+  border-radius: 20px;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+div p {
+  font-size: 20px;
+  font-style: inherit;
+  display: inline;
+}
+
+div,
+i {
+  display: inline-block;
+}
+
+.set {
+  margin-left: 300px;
+  font-size: 20px;
+  color: black;
+}
+
+.set a {
+  text-decoration: none;
+  padding: 10px;
+  text-align: center;
+  color: black;
+}
+
+pre {
+  font-weight: 30px;
+  font-size: 25px;
+}
+
+pre i {
+  font-size: 40px;
+  margin: 3px;
+}
+
+/*console button in upper nav bar */
+#cons {
+  margin-left: 20px;
+  padding: 7px;
+  display: inline;
+  border-color: white;
+  border-radius: 20px;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  font-size: 11px;
+}
+
+/*background image setting */
+.about {
+  background-image: url(/tasks.jpg);
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background-image: url("/tasks.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  top: 185px;
+  z-index: -1;
+}
+
+/*shadow effect in image */
+.overlay {
+  position: relative;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  height: 500px;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+
+/*text written over the image */
+.text {
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: left;
+  padding: 20px;
+  margin-top: 150px;
+  margin-left: 200px;
+  width: 900px;
+  height: 200px;
+  text-shadow: white;
+}
+
+/*read more button */
+#read {
+  padding: 10px;
+  display: inline-block;
+  border: none;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/*console button in reading */
+#console {
+  margin-left: 20px;
+  padding: 10px;
+  display: inline;
+  border-color: white;
+  border-radius: 20px;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+/* launch part  */
+#port {
+  background-image: linear-gradient(to right, #decd14, #dc6719, #ec179b);
+  width: 100%;
+  height: 200px;
+  margin-top: 180px;
+  z-index: 1;
+}
+
+/* launch part  */
+.launch {
+  color: white;
+  width: 300px;
+  height: 200px;
+  padding: 10px;
+  margin-left: 40px;
+}
+
+.launch h3 {
+  display: inline-block;
+  margin-left: 30px;
+  width: 200px;
+}
+
+.launch i {
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.launch p {
+  font-size: 15px;
+}
+
+/* about us section  */
+#detail {
+  padding-left: 200px;
+  margin-top: 400px;
+  text-align: left;
+  content: "";
+  position: absolute;
+  top: 500px;
+  left: 0;
+  width: 100%;
+  height: 500px;
+  background-color: white;
+  z-index: -1;
+}
+
+#detail p {
+  width: 500px;
+  height: 200px;
+  float: left;
+}
+
+#detail .detail-container {
+  display: flex;
+  align-items: center; /* Align content vertically */
+}
+h3 {
+  width: 500px;
+}
+
+/* image in about us  */
+#emp {
+  float: center;
+  width: 500px;
+  height: 400px;
+  margin-left: 50px;
+}
+
+/* services section  */
+#services {
+  background-color: rgb(251, 251, 246);
+  padding-left: 180px;
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  top: 1400px;
+}
+
+/* button dimension */
+#services button {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+/* logo setting  */
+#services i {
+  border: 1px solid white;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  padding: 8px;
+  color: white;
+  background-image: linear-gradient(to right, #decd14, #dc6719, #ec179b);
+}
+
+/* img set  */
+.image-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+/* set image  */
+.image-wrapper img {
+  width: 90%;
+  height: 260px;
+  object-fit: cover;
+  border: 7px solid white;
+  margin: 10px;
+}
+
+/* button with the images  */
+#btn {
+  position: absolute;
+  bottom: 2px;
+  right: -160px;
+  transform: translate(-100%, -5%);
+  padding: 10px;
+  display: inline-block;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
